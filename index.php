@@ -32,7 +32,7 @@ $emailLogeado = $_SESSION['email'];
     </div>
 
     <h1>Bienvenido a la Página de Inicio</h1>
-    <p>Esta es una página de inicio simple.</p>
+    <p>inicio de pagina</p>
 
     <div id="map">
     <script src="mapa.js"></script>
