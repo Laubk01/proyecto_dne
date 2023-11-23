@@ -48,6 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/admin_estilo.css">
 </head>
 <body>
 
@@ -55,15 +56,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <p><?php echo $error_message; ?></p>
     <?php endif; ?>
 
-    <h2>Iniciar Sesión</h2>
+    
+    <div class="form-container">
     <form method="post" action="login.php">
-        <label for="email">Correo electrónico:</label>
-        <input type="email" name="email" required>
-
-        <label for="password">Contraseña:</label>
-        <input type="password" name="password" required>
-
-        <button type="submit">Iniciar Sesión</button>
+    <h3>Iniciar Sesión</h3>
+        <input type="email" name="email" placeholder="Correo electrónico" required class="box">
+        <input type="password" name="password" placeholder="Ingresa contraseña" required class="box">
+        
+        <div class="button-container">
+        <button type="submit"  class="btn">Iniciar Sesión</button>
+        </div>
     </form>
 
 </body>
