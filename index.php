@@ -40,7 +40,7 @@ $emailLogeado = $_SESSION['email'];
     <script src="mapa.js"></script>
     </div>
 
-     <div>
+    <div>
     <br>
     <input type="text" id="cityInput" placeholder="ciudad a buscar..." />
     <button onclick="buscarClima()"  id="buscar"><i class="fas fa-search"></i></button>
