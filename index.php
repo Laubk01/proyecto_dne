@@ -34,24 +34,26 @@ $emailLogeado = $_SESSION['email'];
     <h1>Bienvenido a la Página de Inicio</h1>
     <p>inicio de pagina</p>
 
+
+
     <div id="map">
     <script src="mapa.js"></script>
-</div>
+    </div>
 
-<div>
+     <div>
     <br>
     <input type="text" id="cityInput" placeholder="ciudad a buscar..." />
     <button onclick="buscarClima()"  id="buscar"><i class="fas fa-search"></i></button>
+    </div>
     
-</div>
-
-<div id="clima-info">
+    <div id="clima-info">
     <div id="overlay"></div> 
     <div id="contenido" class="contenido">
- 
     </div>
 
 <script src="buscador.js"></script>
+
+
 </body>
 <?php include 'footer.php'; ?>
 </html>

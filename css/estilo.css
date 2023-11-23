@@ -1,28 +1,5 @@
 /* Estilos para la barra de navegación */
-.navbar {
-    background-color: rgb(197, 231, 197); /* Color de fondo verde lima */
-    padding: 10px; /* Espacio alrededor del contenido de la barra de navegación */
-    text-align: left; /* Centra el texto en la barra de navegación */
-    
-}
 
-.navbar-list {
-    list-style: none; /* Quita los puntos de lista */
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-list li {
-    display: inline; 
-    margin: 0 20px; 
-}
-
-.navbar-list a {
-    text-decoration: none; 
-    color: #394D28; 
-    font-weight: bold; 
-    font-family: 'Montserrat', sans-serif; 
-}
 .texto-overlay {
     position: absolute;
     z-index: 1000;
