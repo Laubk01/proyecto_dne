@@ -23,10 +23,25 @@ $emailLogeado = $_SESSION['email'];
         <p>Bienvenido <?php echo $emailLogeado; ?> | <a href="cerrar_sesion.php">Cerrar Sesión</a></p>
     </div>
 
-    <h1>Bienvenido a la Página de Inicio</h1>
-    <p>Esta es una página de inicio simple.</p>
+    <h1>Bienvenido a CLIMATE</h1>
+    <p>Aquí podrás ver el clima de diferentes ciudades</p>
 
+    <div id="map">
+    <script src="mapa.js"></script>
+</div>
+
+<div>
+    <br>
+    <input type="text" id="cityInput" placeholder="ciudad a buscar..." />
+    <button onclick="buscarClima()"  id="buscar"><i class="fas fa-search"></i></button>
     
+</div>
+
+<div id="clima-info">
+    <div id="overlay"></div> 
+    <div id="contenido" class="contenido">
+ 
+    </div>
 </body>
 <?php include 'footer.php'; ?>
 </html>
