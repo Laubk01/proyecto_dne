@@ -18,7 +18,7 @@ $emailLogeado = $_SESSION['email'];
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css"> 
+    <link rel="stylesheet" href="css/estilo.css"> 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
@@ -50,7 +50,13 @@ $emailLogeado = $_SESSION['email'];
     <div id="contenido" class="contenido">
  
     </div>
+
+
+   
+    <script src="buscador.js"></script>
+ 
 </body>
-<?php include 'footer.php'; ?>
+<?php include("libros.php"); ?>
+
 </html>
 
